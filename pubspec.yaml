@@ -1,0 +1,20 @@
+name: call_with_whatsapp
+description: A new Flutter plugin for calling through Whatsapp from flutter app. Currently only available for Android.
+version: 0.0.1
+homepage: https://github.com/
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.codepoka.call_with_whatsapp
+    pluginClass: CallWithWhatsappPlugin
